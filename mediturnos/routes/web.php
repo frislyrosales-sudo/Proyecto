@@ -9,7 +9,7 @@ use App\Http\Controllers\PortalPacienteController;
 use App\Http\Controllers\AuthController;
 
 Route::get('/', function () {
-    return redirect()->route('login');
+    return view('welcome');
 });
 
 // Rutas Públicas de Autenticación
